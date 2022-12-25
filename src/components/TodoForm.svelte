@@ -36,6 +36,7 @@
 		transition: all 400ms ease;
 	}
 	input[type='text'] {
+		width: 50vw;
 		height: 4rem;
 		flex-grow: 1;
 		font-family: 'Montserrat', sans-serif;
@@ -56,5 +57,10 @@
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 800;
 		border-radius: 0 20px 20px 0;
+	}
+	@media screen and (max-width: 414px){
+		input[type='text']{
+			width: 85vw;
+		}
 	}
 </style>
