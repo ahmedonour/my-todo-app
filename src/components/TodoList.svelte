@@ -15,14 +15,16 @@
 	.todo {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		color: white;
 		width: 100vw;
 		padding-inline: 3rem;
 	}
 
 	.todo-text {
-		flex-grow: 1;
+		/* flex-grow: 1; */
 		margin: 1rem;
+		width: 50vw;
 	}
 
 	.todo-delete {
@@ -36,5 +38,13 @@
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 800;
 		border-radius: 20px;
+	}
+	@media screen and (max-width: 414px){
+		.todo-text{
+			width: 85vw;
+		}
+		.todo-delete{
+			width: 40vw;
+		}
 	}
 </style>

@@ -35,10 +35,9 @@
 
 		transition: all 400ms ease;
 	}
-	input[type='text'] {
+	 form input[type='text'] {
 		width: 40vw;
 		height: 4rem;
-		flex-grow: 1;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 900;
 		padding: 1rem;
@@ -58,9 +57,9 @@
 		font-weight: 800;
 		border-radius: 0 20px 20px 0;
 	}
-	@media screen and (max-width: 414px){
-		input[type='text']{
-			width: 85vw;
+	@media (max-width: 414px){
+		form input[type='text']{
+			width: 90vw;
 		}
 	}
 </style>
