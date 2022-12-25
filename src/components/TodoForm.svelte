@@ -36,7 +36,7 @@
 		transition: all 400ms ease;
 	}
 	input[type='text'] {
-		width: 50vw;
+		width: 40vw;
 		height: 4rem;
 		flex-grow: 1;
 		font-family: 'Montserrat', sans-serif;
